@@ -9,40 +9,51 @@ cpdaily:
   defaults:
     - default:
         #表单项标题
-        title: 今天你的所在地是？
+        title: 你的年龄是？
         #表单项类型，对应今日校园接口返回的fieldType字段，1代表文本，2代表单选，3代表多选，4代表图片
         type: 1
         #表单项默认值, 三级选项选择用 '/' 分隔
-        value: 福建省/福州市/仓山区
+        value: 20
     - default:
-        title: 今天你的体温是多少？
-        type: 2
-        value: 37.2℃及以下
+        title: 你的身份证号码？
+        type: 1
+        value: 452127200108203318
     - default:
-        title: 今天你的身体状况是？
+        title: 你的紧急联系电话（父或母亲）？
+        type: 1
+        value: 13878841992
+    - default:
+        title: 你的身体健康情况？
         type: 2
         value: 健康
     - default:
-        title: 近14天你或你的共同居住人是否有疫情中、高风险区域人员接触史？
+        title: 你现在的体温是多少？
         type: 2
-        value: 否
+        value: 正常（36.6°C-37.2°C）
     - default:
-        title: 近14天你或你的共同居住人是否和确诊、疑似病人接触过？
-        type: 2
-        value: 否
-    - default:
-        title: 近14天你或你的共同居住人是否是确诊、疑似病例？
-        type: 2
-        value: 否
-    - default:
-        title: 你或你的共同居住人目前是否被医学隔离？
-        type: 2
-        value: 否
-    - default:
-        title: 今天你当地的健康码颜色是？
+        title: J你今天健康码颜色？
         type: 2
         value: 绿色
     - default:
-        title: 本人是否承诺以上所填报的全部内容均属实、准确，不存在任何隐瞒与不实的情况，更无遗漏之处    
+        title: 你是否返校？
         type: 2
         value: 是
+    - default:
+        title: 你返校的出发地（填到市）？
+        type: 1
+        value: 广西壮族自治区/南宁市/兴宁区/邕武路16号广西林业干部学校
+    - default:
+        title: 你抵达学校时间？例：2022.3.18    
+        type: 1
+        value: 2022-02-26
+    - default:
+        title: 你现在住在哪个宿舍？    
+        type: 1
+        value: 1栋619
+    - default:
+        title: 你返校后做了几次核酸？    
+        type: 2
+        value: 3
+        
+        
+        
